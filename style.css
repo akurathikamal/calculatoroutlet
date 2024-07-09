@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  background-color: #f0f0f0; 
+}
+
+.calculator-container {
+  width: 240px; 
+  height: 360px;
+}
+
+table {
+  border: 3px solid #22e2b9;
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+th {
+  background-color: #22e2b9;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  border: 3px solid #22e2b9;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.cancel {
+  background-color: red;
+  color: white;
+}
+
+.cancel:hover {
+  background-color: black;
+}
+
+
+#result {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
